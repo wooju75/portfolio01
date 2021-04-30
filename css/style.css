@@ -1,0 +1,14 @@
+@import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
+@import "reset.css";
+
+/* components */
+@import "components/header.css";
+
+/*공통*/
+.wrap {
+  max-width: 1400px;
+}
+
+body {
+  font-family: "NanumSquare", sans-serif;
+}
