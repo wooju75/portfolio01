@@ -21,6 +21,12 @@
   font-size: 18px;
   font-weight: bold;
   cursor: pointer;
+  color: #000000;
+}
+
+.header__gnb ul li a:hover {
+  color: #4f9bdc;
+  transition: all 0.25s ease-in-out;
 }
 
 .header__search {
