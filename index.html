@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/jquery.bxslider.css" />
     <title>동물학대방지연합</title>
   </head>
   <body>
@@ -14,12 +15,12 @@
       </a>
       <div class="header__gnb">
         <ul>
-          <li><a>동학방소개</a></li>
-          <li><a>함께해요</a></li>
-          <li><a>양주쉼터</a></li>
-          <li><a>후원</a></li>
-          <li><a>유기동물</a></li>
-          <li><a>자료실</a></li>
+          <li><a href="#">동학방소개</a></li>
+          <li><a href="#">함께해요</a></li>
+          <li><a href="#">양주쉼터</a></li>
+          <li><a href="#">후원</a></li>
+          <li><a href="#">유기동물</a></li>
+          <li><a href="#">자료실</a></li>
         </ul>
       </div>
       <div class="header__search">
@@ -34,6 +35,41 @@
         <img src="img/login.png" />
       </div>
     </header>
-    <div></div>
+    <section class="slide">
+      <ul class="bxslider">
+        <li><img src="img/main/main_vis01.jpg" /></li>
+        <li><img src="img/main/main_vis01.jpg" /></li>
+      </ul>
+    </section>
+    <div class="main-link wrap">
+      <a href="#" class="main-link__items bg1">
+        <div class="main-link__item">
+          <img src="img/link_btn01.png" />
+          <span>후원안내</span>
+        </div>
+      </a>
+      <a href="#" class="main-link__items bg2">
+        <div class="main-link__item">
+          <img src="img/link_btn02.png" />
+          <span>정기후원</span>
+        </div>
+      </a>
+      <a href="#" class="main-link__items bg3">
+        <div class="main-link__item">
+          <img src="img/link_btn03.png" />
+          <span>일시후원</span>
+        </div>
+      </a>
+      <a href="#" class="main-link__items bg4">
+        <div class="main-link__item">
+          <img src="img/link_btn04.png" />
+          <span>쉼터자립기금</span>
+        </div>
+      </a>
+    </div>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
