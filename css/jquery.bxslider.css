@@ -52,7 +52,7 @@ ul.bxslider {
   z-index: 2000;
 }
 /* PAGER */
-/*.bx-wrapper .bx-pager {
+.bx-wrapper .bx-pager {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -60,7 +60,7 @@ ul.bxslider {
   width: 134px;
   border-radius: 30px;
   background-color: rgba(255, 255, 255, 0.5);
-}*/
+}
 .bx-wrapper .bx-pager.bx-default-pager a {
   background: transparent;
   border: 2px solid #ffffff;
@@ -74,9 +74,13 @@ ul.bxslider {
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
 }
-/*.bx-wrapper .bx-pager.bx-default-pager a:hover,*/
-.bx-wrapper .bx-pager.bx-default-pager a.active
-/*.bx-wrapper .bx-pager.bx-default-pager a:focus */ {
+.bx-wrapper .bx-pager.bx-default-pager a:hover,
+.bx-wrapper
+  .bx-pager.bx-default-pager
+  a.active
+  .bx-wrapper
+  .bx-pager.bx-default-pager
+  a:focus {
   background: #ffffff;
   width: 14px;
   height: 14px;
