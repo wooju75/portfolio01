@@ -3,10 +3,12 @@
 
 /* components */
 @import "components/header.css";
+@import "components/main-link.css";
 
 /*공통*/
 .wrap {
   max-width: 1400px;
+  margin: 0 auto;
 }
 
 body {
