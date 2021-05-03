@@ -5,6 +5,6 @@ $(document).ready(function(){
 		pause: 4000, /* 하나의 이미지가 멈춰서 보여지는 시간 40000ms가 기본 값 */ 
 		mode:'fade', /* 이미지가 교체되는 방식 'fade', 'horizontal', 'vertical'을 사용할수 있다*/ 
 		/*autoControls: true, 시작 중지 버튼을 보여지게 한다 */  
-		/*pager:true,  페이지 바로가기 버튼 보여지게 한다 */ 
+		pager:false,  /*동그라미 불릿 버튼 보여지게 한다*/
 	});
     });
