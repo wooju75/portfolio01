@@ -2,7 +2,6 @@
   display: flex;
   align-items: center;
   height: 90px;
-  margin: auto;
 }
 
 .header__gnb {
@@ -22,11 +21,11 @@
   font-weight: bold;
   cursor: pointer;
   color: #000000;
+  transition: all 0.25s ease-in-out;
 }
 
 .header__gnb ul li a:hover {
   color: #4f9bdc;
-  transition: all 0.25s ease-in-out;
 }
 
 .header__search {
