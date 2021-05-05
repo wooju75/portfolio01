@@ -1,7 +1,7 @@
 .main-link {
   display: flex;
-  position: relative;
-  bottom: 190px;
+  position: absolute;
+  top: -188px;
 }
 
 .main-link__items {
