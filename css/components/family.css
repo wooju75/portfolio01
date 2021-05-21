@@ -96,7 +96,7 @@
 .family-area__go-btn::after {
   content: "";
   display: inline-block;
-  background-image: url(../img/go_btn.png);
+  background-image: url(/img/go_btn.png);
   width: 17px;
   height: 14px;
   margin-left: 10px;
@@ -117,7 +117,7 @@
 .family-area__slide a::after {
   content: "";
   display: inline-block;
-  background-image: url(../img/go_btn.png);
+  background-image: url(/img/go_btn.png);
   background-repeat: no-repeat;
   background-size: contain;
   width: 22px;
