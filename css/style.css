@@ -23,3 +23,17 @@ body {
 }
 
 /*  ------------------------------------ */
+.apply-area {
+  padding: 120px 0;
+}
+
+.apply-area__cont {
+  width: 1400px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.apply-area__item {
+  box-shadow: 5px 5px 25px #d3d3d3;
+}
