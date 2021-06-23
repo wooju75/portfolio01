@@ -36,4 +36,41 @@ body {
 
 .apply-area__item {
   box-shadow: 5px 5px 25px #d3d3d3;
+  text-align: center;
+  height: 542px;
+}
+
+.apply__img {
+  max-height: 300px;
+}
+
+.apply-area__item h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #000;
+  margin: 30px 0;
+  letter-spacing: -1px;
+}
+
+.apply-area__item p {
+  font-size: 18px;
+  letter-spacing: -1px;
+  line-height: 24px;
+  min-height: 105px;
+  color: #333333;
+}
+
+.apply-btn {
+  font-family: "Noto Sans KR", sans-serif;
+  color: #333333;
+}
+
+.apply-btn:after {
+  content: "";
+  display: inline-block;
+  background-image: url(/img/go_btn02.png);
+  width: 17px;
+  height: 14px;
+  margin-left: 10px;
+  letter-spacing: -0.06em;
 }
