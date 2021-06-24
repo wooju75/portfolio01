@@ -7,7 +7,7 @@
 @import "components/main-link.css";
 @import "components/activity.css";
 @import "components/family.css";
-
+@import "components/apply.css";
 /*공통*/
 .wrap {
   max-width: 1400px;
@@ -23,54 +23,40 @@ body {
 }
 
 /*  ------------------------------------ */
-.apply-area {
+
+.board-area {
+  background-color: #f6dee4;
   padding: 120px 0;
 }
 
-.apply-area__cont {
-  width: 1400px;
+.borad-area__cont {
   display: flex;
   justify-content: space-between;
-  margin: 0 auto;
 }
 
-.apply-area__item {
-  box-shadow: 5px 5px 25px #d3d3d3;
-  text-align: center;
-  height: 542px;
+.board-area__tab {
+  width: 100%;
+  display: flex;
 }
 
-.apply__img {
-  max-height: 300px;
-}
-
-.apply-area__item h2 {
-  font-size: 24px;
+.board-area__tab li {
+  background-color: #fff;
+  width: 226px;
+  padding: 30px 0;
+  cursor: pointer;
+  color: #333;
+  font-size: 22px;
   font-weight: 700;
-  color: #000;
-  margin: 30px 0;
-  letter-spacing: -1px;
+  text-align: center;
 }
 
-.apply-area__item p {
-  font-size: 18px;
-  letter-spacing: -1px;
-  line-height: 24px;
-  min-height: 105px;
-  color: #333333;
+.board-area__tab li:first-child {
+  border-radius: 15px 0 0 0;
+  background-color: #ec6c8d;
+  color: #fff;
 }
 
-.apply-btn {
-  font-family: "Noto Sans KR", sans-serif;
-  color: #333333;
-}
-
-.apply-btn:after {
-  content: "";
-  display: inline-block;
-  background-image: url(/img/go_btn02.png);
-  width: 17px;
-  height: 14px;
-  margin-left: 10px;
-  letter-spacing: -0.06em;
+.board-area__tab li:last-child {
+  border-radius: 0 15px 0 0;
+  border-left: 1px solid #ddd;
 }
