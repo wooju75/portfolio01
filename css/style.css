@@ -50,6 +50,10 @@ body {
   text-align: center;
 }
 
+.board-area__tab li:not(:first-child) {
+  border-bottom: 1px solid #ddd;
+}
+
 .board-area__tab li:first-child {
   border-radius: 15px 0 0 0;
   background-color: #ec6c8d;
@@ -59,4 +63,43 @@ body {
 .board-area__tab li:last-child {
   border-radius: 0 15px 0 0;
   border-left: 1px solid #ddd;
+}
+
+.board-area__tab-cont {
+  padding: 30px 40px 30px 40px;
+  background-color: #fff;
+}
+
+.board-area__tab-cont li {
+  line-height: 38px;
+}
+
+.board-area__tab-cont li a {
+  font-family: "Noto Sans KR", sans-serif;
+  display: block;
+  font-weight: 300;
+  position: relative;
+  color: #333333;
+}
+
+.board-area__tab-cont li a:hover {
+  color: #ec6c8d;
+  text-decoration: underline;
+}
+
+.board-area__tab-cont li a .date {
+  position: absolute;
+  right: 0;
+  color: #878787;
+}
+
+.board-area__tab-cont li a::before {
+  display: inline-block;
+  content: "";
+  width: 6px;
+  height: 6px;
+  background-color: #ec6c8d;
+  border-radius: 50%;
+  vertical-align: middle;
+  margin: 0 16px 2px 0;
 }
