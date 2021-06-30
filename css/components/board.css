@@ -1,0 +1,138 @@
+.board-area {
+  background-color: #f6dee4;
+  padding: 120px 0;
+}
+
+.borad-area__cont {
+  display: flex;
+  justify-content: space-between;
+}
+
+.board-area__tab {
+  width: 100%;
+  display: flex;
+}
+
+.board-area__tab li {
+  background-color: #fff;
+  width: 226px;
+  padding: 30px 0;
+  cursor: pointer;
+  color: #333;
+  font-size: 22px;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: -1px;
+}
+
+.board-area__tab li:not(:first-child) {
+  border-bottom: 1px solid #ddd;
+}
+
+.board-area__tab li:first-child {
+  border-radius: 15px 0 0 0;
+  background-color: #ec6c8d;
+  color: #fff;
+}
+
+.board-area__tab li:last-child {
+  border-radius: 0 15px 0 0;
+  border-left: 1px solid #ddd;
+}
+
+.board-area__tab-cont {
+  padding: 30px 40px 30px 40px;
+  background-color: #fff;
+}
+
+.board-area__tab-cont li {
+  line-height: 38px;
+}
+
+.board-area__tab-cont li a {
+  font-family: "Noto Sans KR", sans-serif;
+  display: block;
+  font-weight: 300;
+  position: relative;
+  color: #333333;
+  letter-spacing: -0.06em;
+}
+
+.board-area__tab-cont li a:hover {
+  color: #ec6c8d;
+  text-decoration: underline;
+}
+
+.board-area__tab-cont li a .date {
+  position: absolute;
+  right: 0;
+  color: #878787;
+}
+
+.board-area__tab-cont li a::before {
+  display: inline-block;
+  content: "";
+  width: 6px;
+  height: 6px;
+  background-color: #ec6c8d;
+  border-radius: 50%;
+  vertical-align: middle;
+  margin: 0 16px 2px 0;
+}
+
+.board-area__btn-cont {
+  text-align: center;
+  margin-top: 26px;
+}
+
+.board-area__more-btn {
+  display: inline-block;
+  background-color: #ec6c8d;
+  padding: 16px 28px;
+  color: #fff;
+  border-radius: 30px;
+  font-family: "Noto Sans KR", sans-serif;
+  letter-spacing: -0.06em;
+}
+
+.board-area__more-btn::after {
+  content: "+";
+  margin-left: 10px;
+}
+
+.board-area__wrap li {
+  display: flex;
+  align-items: center;
+}
+
+.board-area__wrap {
+  max-height: 190px;
+}
+
+.board-area__txt {
+  margin-left: 17px;
+}
+
+.board-area__txt h3 {
+  font-size: 18px;
+  color: #333;
+  font-weight: 700;
+  letter-spacing: -0.06em;
+  line-height: 22px;
+}
+
+.board-area__txt p {
+  line-height: 20px;
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 300;
+  color: #333;
+  letter-spacing: -0.06em;
+}
+
+.board-area__txt span {
+  color: #878787;
+  font-family: "Noto Sans KR", sans-serif;
+  letter-spacing: -0.06em;
+  font-weight: 300;
+  font-size: 14px;
+}
