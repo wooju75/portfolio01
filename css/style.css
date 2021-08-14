@@ -33,3 +33,7 @@ body {
   display: flex;
   justify-content: space-between;
 }
+
+.another-area p {
+  text-align: center;
+}
